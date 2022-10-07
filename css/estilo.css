@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body {
+    background: linear-gradient(179.61deg, #F5EBDC 64.82%, rgba(245, 235, 220, 0) 82.47%, #FFFFFF 97.72%);
 }
 

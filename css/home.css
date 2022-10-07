@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 /* Estilos Gerais */
-
 .container {
     width: 100%;
     max-width: 1332px;
@@ -19,26 +19,37 @@
 }
 
 /* Topo */
-
 .cabeçalho {
-    background-color: rgb(60, 255, 0);
     height: 118px;
     display: flex;
     align-items: center;
-
+    border-bottom: 3px solid #D62200;
 }
-.cabeçalho .imgbox {}
 
 /* Corpo */
-
-.corpo {}
-.corpo .imgbox {
-    border: 2px solid black;
+.corpo .imgbox { 
     margin: 41px 0;
 }
-.corpo .button {}
+.corpo .pedido {
+    height: 96px;
+    width: 333.5px;
+    border-radius: 15px;
+    background-color: #DB3B1D;
+    font-size: 35px;
+    color: #fff;
+    margin: 42px 0 57px 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.corpo .info {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
 
 /* Rodape */
+.boxRodape .imgrodape {
+    margin-bottom: 46px;
+}
 
-.boxRodape {}
-.boxRodape .imgbrodape {}
