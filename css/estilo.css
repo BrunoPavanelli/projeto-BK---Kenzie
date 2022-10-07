@@ -5,3 +5,30 @@ body {
     background: linear-gradient(179.61deg, #F5EBDC 64.82%, rgba(245, 235, 220, 0) 82.47%, #FFFFFF 97.72%);
 }
 
+/* Estilos Gerais */
+.container {
+    width: 100%;
+    max-width: 1332px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.corpo{
+    width: 100%;
+    max-width: 1332px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Topo */
+.cabeçalho {
+    height: 118px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #D62200;
+}
+
