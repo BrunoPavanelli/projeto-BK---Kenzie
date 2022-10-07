@@ -1,0 +1,20 @@
+/* Estilos Gerais */
+
+.container {}
+
+/* Topo */
+
+.cabeçalho {}
+.cabeçalho .imgbox {}
+
+/* Corpo */
+
+.boxCartaz {}
+.boxCartaz .imgbox {}
+.boxCartaz .button {}
+
+/* Rodape */
+
+.boxRodape {}
+.boxRodape .info {}
+.boxRodape .imgbox {}
