@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
+/* Estilos Gerias */
+.corpo{
+    width: 100%;
+    max-width: 1332px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 /* Corpo */
 .corpo .imgbox { 
