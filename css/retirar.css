@@ -68,8 +68,10 @@
 /* Rodape */
 .boxRodape {
     text-align: center;
+    width: 100%;
+    margin-bottom: 26px;
+    border-top: 2px solid #502314;
     background-color: rgba(255, 255, 255, 1);
-    margin-bottom: 46px;
 }
 
 .boxRodape .info {
