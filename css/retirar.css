@@ -40,6 +40,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 159px;
+    margin-bottom: 47px;
 }
 
 .corpo .choice .img-box {
@@ -64,3 +65,20 @@
     color: #DB3B1D; 
 }
 
+/* Rodape */
+.boxRodape {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 46px;
+}
+
+.boxRodape .info {
+    margin: 28px 0 18px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+}   
+
+.boxRodape .imgrodape {
+    margin-top: 22px;
+}
