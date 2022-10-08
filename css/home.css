@@ -1,0 +1,57 @@
+/* Main */
+.corpo-principal {}
+
+.corpo-principal .box-principal {
+    margin-top: 41px;
+}
+
+.corpo-principal .box-principal .box-ul-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpo-principal .box-principal .box-ul-principal .banner-whooper {
+    margin-bottom: 41px;
+}
+
+.corpo-principal .box-principal .box-ul-principal .botao-começar {
+    width: 333.5px;
+    height: 96px;
+    background-color: rgba(219, 59, 29, 1);
+    border-radius: 15px;
+    font-family: Nunito;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 56px;
+    transition: 0.3s;
+}
+
+.corpo-principal .box-principal .box-ul-principal .botao-começar:hover {
+    border: 2px solid #502314;
+    color: #502314;
+    width: 338.5px;
+ 
+}
+
+/* Rodape */
+.box-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-rodape .box-ul-rodape .txt-rodape {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #502314;
+    margin-bottom: 18px;
+}
+
+.box-rodape .box-ul-rodape .img-rodape {
+    margin-bottom: 46px;
+}
