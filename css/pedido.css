@@ -1,0 +1,147 @@
+/* Main */
+.box-logo-bandeiras .box-ul-logo-bandeiras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 21px;
+}
+
+.box-bandeiras {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.acesso-cpf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-acesso-cpf {
+    width: 532px;
+    height: 642px;
+    border: 1px solid rgba(80, 35, 20, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-acesso-cpf .img-coroa {
+    margin: 32px 0 21px 0;
+}
+
+.box-acesso-cpf .txt-acesso-cpf {
+    text-align: center;
+}
+
+.box-acesso-cpf .txt-acesso-cpf .txt-cliente em {
+    font-family: 'Nunito';
+    font-weight: 200;
+    font-size: 26px;
+    color: #502314;
+}
+
+.box-acesso-cpf .txt-acesso-cpf .txt-cliente strong {   
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 26px;
+    color: #502314; 
+    margin-bottom: 5px; 
+}
+
+.box-acesso-cpf .txt-acesso-cpf .txt-informe {
+    font-family: 'Nunito';
+    font-weight: 200;
+    font-size: 12px;
+    color: #502314;
+    margin-bottom: 18px;
+}
+
+/* Box Botoes Numeros*/
+.box-acesso-cpf .botao-digite-cpf {
+    width: 291.89px;
+    height: 66.95px;
+    background: #FFFFFF;
+    border: 1px solid #502314;
+    border-radius: 10px;
+ }
+
+.box-acesso-cpf .box-botoes .box-ul-botoes {
+    width: 170px;
+    height: 204px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:17px
+}
+
+
+.box-acesso-cpf .box-botoes .box-ul-botoes .n-botao{
+    width: 44.63px;
+    height: 44.63px;
+    background: #FFFFFF;
+    border: 1px solid #502314;
+    border-radius: 10px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 24px;
+    color: #502314;
+}
+
+/* Botoes Acesso */
+.box-acesso-cpf .box-botao-continuar .continue {
+    width: 299px;
+    height: 50.88px;
+    background: #DB3B1D;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 33.1px;
+    margin-top: 29.2px;
+}
+
+.box-acesso-cpf .box-botao-wo-identify .wo-identify {
+    width: 299px;
+    height: 50.88px;
+    background: #F5EBDC;
+    border: 2px solid #DB3B1D;
+    border-radius: 10px;
+    font-family: 'Nunito';
+    font-weight: 200;
+    font-size: 18px;
+    color: #DB3B1D; 
+    }
+
+/* Rodape */
+.box-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    border-top: 1px solid black;
+    background-color: #fff;
+}
+
+.box-rodape .box-ul-rodape .txt-rodape {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    color: #502314;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+.box-rodape .box-ul-rodape .img-rodape {
+    margin-bottom: 28px;
+}
+
+
+
