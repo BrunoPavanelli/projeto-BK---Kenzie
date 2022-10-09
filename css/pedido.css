@@ -103,9 +103,17 @@
     font-weight: 400;
     font-size: 24px;
     color: #FFFFFF;
-    margin-bottom: 33.1px;
+    margin-bottom: 19.2px;
     margin-top: 29.2px;
+    transition: 0.3s;
 }
+
+.box-acesso-cpf .box-botao-continuar .continue:hover {
+    border: 2px solid #502314;
+    color: #502314;
+    width: 304px;
+}
+
 
 .box-acesso-cpf .box-botao-wo-identify .wo-identify {
     width: 299px;
@@ -116,8 +124,17 @@
     font-family: 'Nunito';
     font-weight: 200;
     font-size: 18px;
-    color: #DB3B1D; 
-    }
+    color: #DB3B1D;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.box-acesso-cpf .box-botao-wo-identify .wo-identify:hover {
+    border: 2px solid #502314;
+    color: #502314;
+    font-size: 20px;
+    width: 304px;
+}
 
 /* Rodape */
 .box-rodape {
