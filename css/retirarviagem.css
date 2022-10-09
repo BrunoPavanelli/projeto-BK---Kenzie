@@ -58,6 +58,12 @@
 .parte-2 .box-opçao:hover {
     height: 466px;
     width: 338px; 
+    background-color: rgba(255, 134, 39, 1);
+}
+
+
+.parte-2 .box-opçao:hover .txt-opçao{
+    color: #fff;
 }
 
 .parte-2 .box-opçao .box-retirada, .box-viagem {

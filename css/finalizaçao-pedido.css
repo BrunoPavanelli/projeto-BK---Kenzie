@@ -1,0 +1,128 @@
+/* Banner */
+.box-banner {
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+}
+
+/* Area dos produtos */
+.corpo-principal {
+    margin-top: 55px;
+}
+
+ .container-escolhas {
+    width: 1000px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box-escolha {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+} 
+
+.box-escolha .box-produto {
+    width: 174.75px;
+    height: 280px;
+    background: #FFFFFF;
+     border: 2px solid #F5EBDC;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    flex-wrap: wrap;
+    margin-bottom: 12px;    
+ }  
+
+ .box-escolha .box-produto .img-produto {
+    margin-top: 16.5px;
+ }
+ 
+.box-escolha .box-produto .txt-produto  {   
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 15px;
+    color: #502314;
+}
+
+.box-escolha .box-produto .box-txt-produto {
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.box-escolha .box-produto .txt-price {       
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+    margin-top: 21px;    
+}
+
+.box-escolha .box-produto .add-bu {
+    margin-top: 21px; 
+    height: 30.7px;
+    width: 133.4px;
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 12px;
+    color: #2D2D2D;
+}
+
+.box-escolha .box-produto .add-bu:hover {
+background-color: rgba(255, 134, 39, 1);
+color: #ffffff;
+}
+
+/* Minha Sacola */
+.minha-sacola {
+    width: 100%;
+    height: 100px;
+    background: #502314;
+    border-radius: 32px 32px 0px 0px;
+    margin-top: 43.5px;
+}
+
+.minha-sacola .box-minha-sacola {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minha-sacola .box-minha-sacola .txt-1 .txt-sacola {
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 24px;
+    color: #F7F5F0;
+    margin-bottom: 12px;
+}
+
+.minha-sacola .box-minha-sacola .txt-1 .txt-balcao {
+    font-family: 'Nunito';
+    font-weight: 200;
+    font-size: 16.5px;
+    color: #f7f5f034;
+    margin-bottom: 1px;
+    }
+
+.minha-sacola .box-minha-sacola .txt-2 .txt-total {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #F7F5F0;
+}
