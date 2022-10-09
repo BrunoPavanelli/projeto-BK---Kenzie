@@ -52,6 +52,12 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 159px;
+    transition: 0.5s;
+}
+
+.parte-2 .box-opçao:hover {
+    height: 466px;
+    width: 338px; 
 }
 
 .parte-2 .box-opçao .box-retirada, .box-viagem {
@@ -66,6 +72,14 @@
     height: 82px;
     margin-top: 29px;
     text-align: center;
+    transition: 0.01s;
+}
+
+.parte-2 .box-opçao .box-txt-opçao:hover {
+    border: 2px solid #DB3B1D;
+    border-radius: 20px;
+    background-color: #f3ebe9;
+    width: 210px;       
 }
 
 .parte-2 .box-opçao .txt-opçao {
@@ -73,5 +87,10 @@
     font-weight: 200;
     font-size: 30px;
     color: #DB3B1D;
+}
+
+.parte-2 .box-opçao .txt-opçao:hover {
+    color: #DB3B1D;
+    font-weight: 400;
 }
 
