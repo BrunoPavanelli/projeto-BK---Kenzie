@@ -111,7 +111,7 @@ color: #ffffff;
     margin-bottom: 12px;
 }
 
-.minha-sacola .box-minha-sacola .txt-1 .txt-balcao {
+.minha-sacola .box-minha-sacola .txt-1 .txt-balcao em {
     font-family: 'Nunito';
     font-weight: 200;
     font-size: 16.5px;
@@ -126,3 +126,97 @@ color: #ffffff;
     font-size: 24px;
     color: #F7F5F0;
 }
+
+/* Area de Finalizar Pedido */
+.finalizar-pedido {
+    width: 1000px;
+    height: 122.25px;
+    margin: 0 auto;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35.25px;
+}
+
+.finalizar-pedido .box-pedido-final {
+    width: 798px;
+    height: 122.25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    background: #F5F3F0;
+    border-radius: 15px;
+}
+
+.finalizar-pedido .box-pedido-final .coluna-direita {
+    margin-left: 33.75px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.finalizar-pedido .box-pedido-final .coluna-direita .produto-pedido-final {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16.5px;
+    color: #502314;
+}
+
+.finalizar-pedido .box-pedido-final .coluna-esquerda {
+    margin-left: 303.75px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.finalizar-pedido .box-pedido-final .coluna-esquerda .price-pedido-final{
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 18px;
+    color: #2D2D2D;
+}
+
+.finalizar-pedido .box-pedido-final .box-excluir-pedido {
+    width: 43.8px;
+    height: 37.4px;
+    background: #E6E6E6;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.finalizar-pedido .box-botoes-pedido {
+    width: 202px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+
+.finalizar-pedido .box-botoes-pedido .botao-pedido-finalizar,.botao-pedido-cancelar {
+    width: 160px;
+    height: 40.9px;
+    border: 3px solid #DB3B1D;
+    border-radius: 10px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16.5px;
+}
+
+.finalizar-pedido .box-botoes-pedido .botao-pedido-finalizar {
+    background: #DB3B1D;
+    color: #FFFFFF;
+}
+
+.finalizar-pedido .box-botoes-pedido .botao-pedido-cancelar {
+    color: #DB3B1D;
+    background: #FFFFFF;
+}
+
