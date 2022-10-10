@@ -39,7 +39,11 @@
     align-items: center; 
     flex-wrap: wrap;
     margin-bottom: 12px;    
- }  
+}
+
+.box-escolha .box-produto:hover {
+    border: 2px solid #e2d2cd;
+}
 
  .box-escolha .box-produto .img-produto {
     margin-top: 16.5px;
@@ -78,6 +82,7 @@
     font-weight: 500;
     font-size: 12px;
     color: #2D2D2D;
+    transition: 0.2s;
 }
 
 .box-escolha .box-produto .add-bu:hover {
@@ -117,7 +122,17 @@ color: #ffffff;
     font-size: 16.5px;
     color: #f7f5f034;
     margin-bottom: 1px;
-    }
+    transition: 0.2s;
+}
+
+.minha-sacola .box-minha-sacola .txt-1 .txt-balcao em:hover {
+    border: 2px solid #DB3B1D;
+    color: #DB3B1D;  
+    background: #F5EBDC; 
+    border-radius: 10px;
+    padding:0 5px;
+
+}
 
 .minha-sacola .box-minha-sacola .txt-2 .txt-total {
     font-family: 'Nunito';
@@ -191,6 +206,10 @@ color: #ffffff;
     justify-content: center;
 }
 
+.finalizar-pedido .box-pedido-final .box-excluir-pedido:hover {
+    border: 2px solid #502314;
+}
+
 
 .finalizar-pedido .box-botoes-pedido {
     width: 202px;
@@ -213,10 +232,23 @@ color: #ffffff;
 .finalizar-pedido .box-botoes-pedido .botao-pedido-finalizar {
     background: #DB3B1D;
     color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.finalizar-pedido .box-botoes-pedido .botao-pedido-finalizar:hover {
+    border: 2px solid #502314;
+    color: #502314;
 }
 
 .finalizar-pedido .box-botoes-pedido .botao-pedido-cancelar {
     color: #DB3B1D;
     background: #FFFFFF;
+    transition: 0.2s;
+}
+
+.finalizar-pedido .box-botoes-pedido .botao-pedido-cancelar:hover {
+    border: 2px solid #502314;
+    color: #502314;   
+    background: #F5EBDC; 
 }
 

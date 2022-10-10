@@ -78,14 +78,15 @@
     height: 82px;
     margin-top: 29px;
     text-align: center;
-    transition: 0.01s;
+    border-radius: 20px;
+    transition: 0.1s;
 }
 
 .parte-2 .box-opçao .box-txt-opçao:hover {
     border: 2px solid #DB3B1D;
     border-radius: 20px;
     background-color: #f3ebe9;
-    width: 210px;       
+    /* width: 210px;        */
 }
 
 .parte-2 .box-opçao .txt-opçao {

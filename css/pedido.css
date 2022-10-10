@@ -92,6 +92,11 @@
     color: #502314;
 }
 
+.box-acesso-cpf .box-botoes .box-ul-botoes .n-botao:hover {
+    border: 3px solid #502314;
+    font-weight: 700;
+}
+
 /* Botoes Acesso */
 .box-acesso-cpf .box-botao-continuar .continue {
     width: 299px;
